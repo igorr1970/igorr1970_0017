@@ -12,7 +12,6 @@ class Car:
         self.__vin = vin
         self.__numbers = numbers
 
-        # Проверка корректности VIN и номеров при создании объекта
         self.__is_valid_vin(self.__vin)
         self.__is_valid_numbers(self.__numbers)
 
